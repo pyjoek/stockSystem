@@ -1,0 +1,54 @@
+
+body, html {
+    height: 100%;
+    }
+    
+    .custom-container {
+    height: 100%;
+    }
+    
+    .clickable-word {
+    cursor: pointer;
+    text-decoration: underline;
+    }
+    
+    .center-title {
+    text-align: center;
+    }
+    
+    #stock-table {
+    width: 100%;
+    margin-top: 20px;
+    }
+    
+    #stock-table th, #stock-table td {
+    text-align: center;
+    padding: 8px;
+    }
+    
+    #stock-table th {
+    background-color: #007bff;
+    color: white;
+    }
+    
+    #stock-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    }
+    .vat1-form {
+        margin: 5px;
+    }
+    #right-side{
+        border-radius: 20px;
+    }
+    .col-md-2{
+        border-radius: 20px;
+    }
+    .btn a{
+        color: white;
+    }
+    h1 a:hover{
+        text-decoration: none;
+    }
+    p a:hover{
+        text-decoration: none;
+    }
