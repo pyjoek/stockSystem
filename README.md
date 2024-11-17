@@ -1,2 +1,1 @@
-################
-Online Inventory System for Dar Es Salaam Stock
+################Online Inventory System for Dar Es Salaam Stock
