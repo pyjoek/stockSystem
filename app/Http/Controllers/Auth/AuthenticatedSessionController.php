@@ -10,10 +10,10 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthenticatedSessionController extends Controller
 {
-    // protected function authenticated(Request $request, $user)
-    // {
-    //     return redirect()->intended('dashboard'); // Adjust 'dashboard' as needed.
-    // }
+    protected function authenticated(Request $request, $user)
+    {
+        return redirect()->intended('dashboard'); // Adjust 'dashboard' as needed.
+    }
 
     /**
      * Display the login view.
@@ -44,35 +44,35 @@ class AuthenticatedSessionController extends Controller
             return redirect('/');
         }else{
             if ($request->email == 'vita1@gmail.com'){
-                return redirect('/vita1');
+                return redirect('/vita1Store');
             }elseif($request->email == 'vita2@gmail.com'){
-                return redirect('/vita2');
+                return redirect('/vita2Store');
             }elseif($request->email == 'vita3@gmail.com'){
-                return redirect('/vita3');
+                return redirect('/vita3Store');
             }elseif($request->email == 'vita4@gmail.com'){
-                return redirect('/vita4');
+                return redirect('/vita4Store');
             }elseif($request->email == 'vita5@gmail.com'){
-                return redirect('/vita5');
+                return redirect('/vita5Store');
             }elseif($request->email == 'vita6@gmail.com'){
-                return redirect('/vita6');
+                return redirect('/vita6Store');
             }elseif($request->email == 'vita7@gmail.com'){
-                return redirect('/vita7');
+                return redirect('/vita7Store');
             }elseif($request->email == 'vita8@gmail.com'){
-                return redirect('/vita8');
+                return redirect('/vita8Store');
             }elseif($request->email == 'vita9@gmail.com'){
-                return redirect('/vita9');
+                return redirect('/vita9Store');
             }elseif($request->email == 'vita10@gmail.com'){
-                return redirect('/vita10');
+                return redirect('/vita10Store');
             }elseif($request->email == 'vita11@gmail.com'){
-                return redirect('/vita11');
+                return redirect('/vita11Store');
             }elseif($request->email == 'vita12@gmail.com'){
-                return redirect('/vita12');
+                return redirect('/vita12Store');
             }elseif($request->email == 'vita13@gmail.com'){
-                return redirect('/vita13');
+                return redirect('/vita13Store');
             }elseif($request->email == 'vita14@gmail.com'){
-                return redirect('/vita14');
+                return redirect('/vita14Store');
             }elseif($request->email == 'vita15@gmail.com'){
-                return redirect('/vita15');
+                return redirect('/vita15Store');
             }
         }
     }
