@@ -10,10 +10,10 @@ use Illuminate\Support\Facades\Auth;
 
 class AuthenticatedSessionController extends Controller
 {
-    protected function authenticated(Request $request, $user)
-    {
-        return redirect()->intended('dashboard'); // Adjust 'dashboard' as needed.
-    }
+    // protected function authenticated(Request $request, $user)
+    // {
+    //     return redirect()->intended('dashboard'); // Adjust 'dashboard' as needed.
+    // }
 
     /**
      * Display the login view.
