@@ -40,6 +40,8 @@
         <div class="d-flex justify-content-between align-items-center mb-3">
             <h2>Stock Information</h2>
             <a href="#" class="btn btn-primary">Request Stock</a>
+            <a href="/logout" class="btn btn-primary">Logout</a>
+
         </div>
         <h3 class="text-muted">Vita Store Branch 1</h3>
         <table class="table table-bordered table-hover">
