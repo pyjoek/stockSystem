@@ -53,9 +53,10 @@ class Vita8Controller extends Controller
      * @param  \App\Models\Vita8  $vita8
      * @return \Illuminate\Http\Response
      */
-    public function show(Vita8 $vita8)
+    public function show()
     {
-        //
+        $datas = Vita8::all();
+        return view('vita8.vitaStore',['datas' => $datas]);
     }
 
     /**

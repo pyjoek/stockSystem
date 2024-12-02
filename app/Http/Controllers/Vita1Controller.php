@@ -56,7 +56,7 @@ class Vita1Controller extends Controller
     public function show()
     {
         $datas = Vita1::all();
-        return view('vita1.vita1Store',['datas' => $datas]);
+        return view('vita1.vitaStore',['datas' => $datas]);
     }
 
     /**
