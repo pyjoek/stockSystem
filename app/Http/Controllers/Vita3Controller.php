@@ -53,9 +53,10 @@ class Vita3Controller extends Controller
      * @param  \App\Models\Vita3  $vita3
      * @return \Illuminate\Http\Response
      */
-    public function show(Vita3 $vita3)
+    public function show()
     {
-        //
+        $datas = Vita3::all();
+        return view('vita3.vitaStore',['datas' => $datas]);
     }
 
     /**
